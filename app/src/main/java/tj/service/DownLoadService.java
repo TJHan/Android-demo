@@ -23,6 +23,7 @@ public class DownLoadService extends Service {
     @Nullable
     @Override
     public IBinder onBind(Intent intent) {
+        Log.d(TAG, "onBind: 测试");
         return downLoadBinder;
     }
 
