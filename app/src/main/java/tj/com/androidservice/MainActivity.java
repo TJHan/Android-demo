@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        Log.d(TAG, "onCreate: 添加代码测试git分支");
         Button btnBind=(Button)findViewById(R.id.btnBind);
         btnBind.setOnClickListener(new View.OnClickListener() {
             @Override
